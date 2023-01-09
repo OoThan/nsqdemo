@@ -6,9 +6,3 @@ services:
   worker2:
     image: nsq-consumer
     command: /app/consumer -topic email -channel default
-  worker3:
-    image: nsq-consumer
-    command: /app/consumer -topic testing3 -channel geo
-  worker4:
-    image: nsq-consumer
-    command: /app/consumer -topic testing4 -channel think
